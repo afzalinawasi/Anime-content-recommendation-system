@@ -1,0 +1,30 @@
+{
+    "project_name": "Anime Content-Based Recommendation System",
+    "recommendation_type": "Content-based recommender",
+    "main_dataset": "anime.csv",
+    "support_dataset": "rating.csv",
+    "content_features_used": [
+        "genre",
+        "anime_type",
+        "episode_category"
+    ],
+    "supporting_display_features": [
+        "anime_id",
+        "anime_name",
+        "anime_rating",
+        "member_count",
+        "avg_user_rating",
+        "valid_rating_count",
+        "total_interactions"
+    ],
+    "vectorizer": "TfidfVectorizer",
+    "similarity_metric": "Cosine similarity",
+    "tfidf_ngram_range": [
+        1,
+        2
+    ],
+    "total_anime_records": 12294,
+    "total_tfidf_features": 941,
+    "app_similarity_strategy": "Calculate cosine similarity on demand from saved TF-IDF matrix",
+    "note": "Full dense cosine similarity matrix is not saved for app deployment because it is memory-heavy."
+}
