@@ -283,7 +283,7 @@ The dashboard includes:
 * Top 10 anime by valid rating count
 * Data insights for interpretation
 
-* View the Streamlit App here: Click here 
+* View the Streamlit App here: [Click here](https://anime-content-recommendation-system.streamlit.app/) 
 
 ---
 
